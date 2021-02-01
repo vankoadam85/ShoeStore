@@ -16,23 +16,29 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-    <style name="textStyle">
+    <style name="text">
         <item name="android:fontFamily">@font/brawler</item>
         <item name="android:textColor">@android:color/black</item>
         <item name="android:textSize">@dimen/text</item>
     </style>
 
-    <style name="titleTextStyle">
+    <style name="titleText">
         <item name="android:fontFamily">@font/brawler</item>
         <item name="android:textColor">@android:color/black</item>
         <item name="android:textSize">@dimen/title_text</item>
     </style>
 
-    <style name="buttonStyle">
+    <style name="button">
         <item name="android:fontFamily">@font/brawler</item>
         <item name="android:textColor">@android:color/black</item>
         <item name="android:textSize">@dimen/text</item>
         <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="editText">
+        <item name="android:fontFamily">@font/brawler</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/semi_large_text</item>
     </style>
 
 </resources>
