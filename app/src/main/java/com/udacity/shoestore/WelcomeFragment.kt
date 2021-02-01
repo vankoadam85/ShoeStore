@@ -6,8 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
-import com.udacity.shoestore.R
-import com.udacity.shoestore.databinding.FragmentLoginBinding
 import com.udacity.shoestore.databinding.FragmentWelcomeBinding
 
 class WelcomeFragment : Fragment() {
@@ -19,7 +17,7 @@ class WelcomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
-        binding = DataBindingUtil.inflate(layoutInflater, R.layout.fragment_login, container, false)
+        binding = DataBindingUtil.inflate(layoutInflater, R.layout.fragment_welcome, container, false)
 
         return binding.root
     }
