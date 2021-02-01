@@ -16,6 +16,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/margin"
             android:text="@string/email"
+            android:textAppearance="@style/text"
             android:textSize="@dimen/text" />
 
         <EditText
@@ -23,7 +24,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            style="@style/editText" />
 
         <TextView
             android:id="@+id/passwordText"
@@ -31,6 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/margin"
             android:text="@string/password"
+            android:textAppearance="@style/text"
             android:textSize="@dimen/text" />
 
         <EditText
@@ -38,7 +41,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:textAppearance="@style/editText" />
 
         <Button
             android:id="@+id/logInButton"
@@ -46,7 +50,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/margin"
-            android:text="@string/log_in" />
+            android:text="@string/log_in"
+            android:textAppearance="@style/button" />
 
         <TextView
             android:id="@+id/orText"
@@ -55,6 +60,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/margin"
             android:text="@string/or"
+            android:textAppearance="@style/titleText"
             android:textSize="@dimen/title_text" />
 
         <Button
@@ -63,7 +69,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/margin"
-            android:text="@string/register" />
+            android:text="@string/register"
+            android:textAppearance="@style/button" />
     </LinearLayout>
 
 </layout>
