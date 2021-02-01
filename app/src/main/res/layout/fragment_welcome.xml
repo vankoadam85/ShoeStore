@@ -32,11 +32,11 @@
 
         <Button
             android:id="@+id/okButton"
+            style="@style/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/margin"
-            android:text="@android:string/ok"
-            style="@style/button" />
+            android:text="@android:string/ok" />
     </LinearLayout>
 
 </layout>
