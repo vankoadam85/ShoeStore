@@ -4,6 +4,7 @@
     tools:context=".InstructionFragment">
 
     <ScrollView
+        android:id="@+id/instructionsScroll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
