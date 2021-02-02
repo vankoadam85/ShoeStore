@@ -15,4 +15,8 @@
     <string name="shoe_size">Shoe size</string>
     <string name="description">Description</string>
     <string name="save">Save</string>
+    <string name="welcome">Welcome</string>
+    <string name="instructions">Instructions</string>
+    <string name="shoes">Shoes</string>
+    <string name="new_Shoe">New shoe</string>
 </resources>
