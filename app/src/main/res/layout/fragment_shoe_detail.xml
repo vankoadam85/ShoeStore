@@ -4,6 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".ShoeDetailFragment">
 
+    <data>
+
+        <variable
+            name="shoe"
+            type="com.udacity.shoestore.models.Shoe" />
+    </data>
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -62,6 +69,7 @@
             android:layout_marginEnd="@dimen/margin"
             android:ems="10"
             android:inputType="text"
+            android:text="@={shoe.name}"
             android:textAppearance="@style/editText"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -75,6 +83,7 @@
             android:layout_marginEnd="@dimen/margin"
             android:ems="10"
             android:inputType="text"
+            android:text="@={shoe.company}"
             android:textAppearance="@style/editText"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -87,7 +96,8 @@
             android:layout_marginStart="@dimen/margin"
             android:layout_marginEnd="@dimen/margin"
             android:ems="10"
-            android:inputType="numberSigned"
+            android:inputType="numberDecimal"
+            android:text="@={com.udacity.shoestore.ShoeSizeConverter.doubleToString(shoe.size)}"
             android:textAppearance="@style/editText"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -101,6 +111,7 @@
             android:layout_marginEnd="@dimen/margin"
             android:ems="10"
             android:inputType="textMultiLine"
+            android:text="@={shoe.description}"
             android:textAppearance="@style/editText"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
