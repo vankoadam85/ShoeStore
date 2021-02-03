@@ -19,4 +19,5 @@
     <string name="instructions">Instructions</string>
     <string name="shoes">Shoes</string>
     <string name="new_Shoe">New shoe</string>
+    <string name="placeholder">placeholder</string>
 </resources>

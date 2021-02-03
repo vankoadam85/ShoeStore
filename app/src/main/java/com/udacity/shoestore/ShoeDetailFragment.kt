@@ -38,8 +38,8 @@ class ShoeDetailFragment : Fragment() {
         return Shoe(
             binding.shoeNameEditText.text.toString(),
             binding.shoeSizeEditText.text.toString().toDoubleOrNull() ?: 0.0,
-            binding.companyEditText.text.toString(),
-            binding.descriptionEditText.text.toString()
+            binding.shoeCompanyEditText.text.toString(),
+            binding.shoeDescriptionEditText.text.toString()
         )
     }
 }
