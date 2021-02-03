@@ -20,4 +20,5 @@
     <string name="shoes">Shoes</string>
     <string name="new_Shoe">New shoe</string>
     <string name="placeholder">placeholder</string>
+    <string name="log_out">Log out</string>
 </resources>
