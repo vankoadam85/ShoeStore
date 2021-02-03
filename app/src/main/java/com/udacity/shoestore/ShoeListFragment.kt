@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import androidx.navigation.Navigation
 import com.udacity.shoestore.databinding.FragmentShoeListBinding
 
 class ShoeListFragment : Fragment() {
@@ -19,6 +20,10 @@ class ShoeListFragment : Fragment() {
     ): View {
 
         binding = DataBindingUtil.inflate(layoutInflater, R.layout.fragment_shoe_list, container, false)
+
+        binding.fab.setOnClickListener(
+            Navigation.createNavigateOnClickListener(
+                ShoeListFragmentDirections.actionShoeListFragmentToShoeDetailFragment()))
 
         return binding.root
     }
