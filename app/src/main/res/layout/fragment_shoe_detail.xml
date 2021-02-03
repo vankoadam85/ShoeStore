@@ -7,7 +7,7 @@
     <data>
 
         <variable
-            name="shoe"
+            name="newsShoe"
             type="com.udacity.shoestore.models.Shoe" />
     </data>
 
@@ -69,7 +69,7 @@
             android:layout_marginEnd="@dimen/margin"
             android:ems="10"
             android:inputType="text"
-            android:text="@={shoe.name}"
+            android:text="@={newsShoe.name}"
             android:textAppearance="@style/editText"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -83,7 +83,7 @@
             android:layout_marginEnd="@dimen/margin"
             android:ems="10"
             android:inputType="text"
-            android:text="@={shoe.company}"
+            android:text="@={newsShoe.company}"
             android:textAppearance="@style/editText"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -97,7 +97,7 @@
             android:layout_marginEnd="@dimen/margin"
             android:ems="10"
             android:inputType="numberDecimal"
-            android:text="@={com.udacity.shoestore.ShoeSizeConverter.doubleToString(shoe.size)}"
+            android:text="@={com.udacity.shoestore.ShoeSizeConverter.doubleToString(newsShoe.size)}"
             android:textAppearance="@style/editText"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -111,7 +111,7 @@
             android:layout_marginEnd="@dimen/margin"
             android:ems="10"
             android:inputType="textMultiLine"
-            android:text="@={shoe.description}"
+            android:text="@={newsShoe.description}"
             android:textAppearance="@style/editText"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
