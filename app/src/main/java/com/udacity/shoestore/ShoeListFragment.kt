@@ -40,12 +40,8 @@ class ShoeListFragment : Fragment() {
                         binding.shoesLayout,
                         false
                     )
-                with(shoeLayoutBinding) {
-                    companyText.text = shoe.company
-                    nameText.text = shoe.name
-                    sizeText.text = shoe.size.toString()
-                    binding.shoesLayout.addView(root)
-                }
+                shoeLayoutBinding.shoe = shoe
+                binding.shoesLayout.addView(shoeLayoutBinding.root)
             }
         })
 
